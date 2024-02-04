@@ -96,7 +96,7 @@ class Journal
                     string response = reader.ReadLine();
 
                     Entries.Add(new Entry(prompt, response));
-                    reader.ReadLine(); // Read the empty line
+                    reader.ReadLine();
                 }
             }
 
